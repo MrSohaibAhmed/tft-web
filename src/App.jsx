@@ -10,13 +10,14 @@ function App() {
   return (
     <>
       {/* <h1 className="text-3xl font-bold underline">TFT LATEST WEBSITE</h1> */}
+      <Navbar />
+
+      <Header />
+
       <CertificationSection />
       <ProfessionalCertificateSec />
       <WhySection />
       <FrequentQuesSec />
-
-      <Navbar />
-      <Header />
     </>
   );
 }
