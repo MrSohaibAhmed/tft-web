@@ -5,6 +5,7 @@ import CertificationSection from "./components/CertificationSection";
 import ProfessionalCertificateSec from "./components/ProfessionalCertificateSec";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Hero/Hero";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ProfessionalCertificateSec />
       <WhySection />
       <FrequentQuesSec />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,30 @@
+/*CSS for footer component*/
+.footer{
+    width: 100%;
+    height: 439px;
+    top: 3155px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #350C50;
+    border: 1px 0px 0px 0px;
+    border-top: 1px solid #FFFFFF1A;
+    }
+    .main-footer-part{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding-top: 30px;
+    }
+    .footer-logo{
+        width: 267px;
+    height: 105px;
+    top: 35px;
+    left: 90px;
+    gap: 0px;
+    opacity: 0px;
+    }
+    
+    
