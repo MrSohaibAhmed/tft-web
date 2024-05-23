@@ -1,10 +1,14 @@
 import { useState } from "react";
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Hero/Hero";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">TFT LATEST WEBSITE</h1>
+
+  
+  
     </>
   );
 }
