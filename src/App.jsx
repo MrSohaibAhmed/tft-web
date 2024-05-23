@@ -7,10 +7,13 @@ function App() {
   return (
     <>
 
-  
-  
+<Navbar/>
+<Header/>
+
     </>
   );
 }
+
+
 
 export default App;

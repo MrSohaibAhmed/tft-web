@@ -18,7 +18,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="bg-[url('/Gradient-Banner.png')] relative h-[80vh] md:h-[100vh] overflow-hidden">
+    <div className="bg-[url('/Gradient-Banner.png')] bg-no-repeat bg-cover relative h-[80vh] md:h-[100vh] overflow-hidden">
       <div className="bg-[url('/Pixel-Effect.png')] relative h-[80vh] md:h-[100vh] overflow-hidden">
         <div className="w-[100%] h-[100%] relative flex items-center flex-col ">
           <div className='relative flex justify-center items-center flex-col'>
