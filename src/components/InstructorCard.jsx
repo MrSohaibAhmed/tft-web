@@ -9,7 +9,7 @@ function InstructorCard(props) {
           borderRadius: "181px 181px 0px 0px",
         }}
       >
-        <img src={props.data.img} width={140} alt="" />
+        <img src={props.data.img} width={110} alt="" />
         <h1 className="text-[35px] leading-[42px] font-[600] text-[#350C50] ">
           {props.data.name}
         </h1>

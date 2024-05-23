@@ -1,4 +1,5 @@
 import ProfileComp from "./ProfileComp";
+import AccordianComp from "./AccordianComp";
 
 function ProfessionalCertificateSec() {
   const data = [
@@ -70,30 +71,13 @@ function ProfessionalCertificateSec() {
         </div>
         <div className="flex mt-10 gap-7 max-lg:flex-wrap items-start justify-center">
           <div
-            className="p-8  rounded-3xl max-w-[750px] w-full"
+            className="p-8  rounded-3xl flex flex-col gap-2 max-w-[750px] w-full"
             style={{ boxShadow: " 5px 5px 13.1px 4px #0000001C" }}
           >
             {data.map((item) => {
               return (
                 <>
-                  {" "}
-                  <div className="flex justify-between items-center border-b-2 p-5 ">
-                    <div className="flex flex-col gap-2">
-                      <h1 className="text-[28px] font-[600] text-[#001E36]">
-                        {item.heading}
-                      </h1>
-                      <p className="text-[20px] font-[300] text-[#7D7D7D]">
-                        Course {item.course} &nbsp;&nbsp;&nbsp;&nbsp; ||
-                        &nbsp;&nbsp;&nbsp;&nbsp; {item.hour} hours
-                        &nbsp;&nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;&nbsp;
-                        <span className="font-[600]"> {item.rating}</span>
-                      </p>
-                    </div>
-                    <img
-                      src="src/assets/images/ArrowDown.png"
-                      alt="arrow button"
-                    />
-                  </div>
+                  <AccordianComp item={item} />
                 </>
               );
             })}
@@ -106,7 +90,6 @@ function ProfessionalCertificateSec() {
             <h1 className="text-[43px] font-[600] text-[#939393]">
               Instructors
             </h1>
-
             <ProfileComp data={instructor} />
 
             <h1 className="text-[22px] font-[600] text-[#939393]">
@@ -119,6 +102,7 @@ function ProfessionalCertificateSec() {
               years of Experience. I am Visual Communication Designer more than
               5 years of Experience.
             </p>
+<br />
             <h1 className="text-[26px] font-[600] text-[#939393]">
               More Courses
             </h1>
