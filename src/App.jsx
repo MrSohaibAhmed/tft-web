@@ -1,4 +1,5 @@
 import "./App.css";
+import FrequentQuesSec from "./components/FrequentQuesSec";
 import WhySection from "./components/WhySection";
 // import CertificationSection from "./components/CertificationSection";
 // import ProfessionalCertificateSec from "./components/ProfessionalCertificateSec";
@@ -10,6 +11,7 @@ function App() {
       {/* <CertificationSection /> */}
       {/* <ProfessionalCertificateSec /> */}
       <WhySection />
+      <FrequentQuesSec />
     </>
   );
 }
