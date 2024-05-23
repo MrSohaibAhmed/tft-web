@@ -10,7 +10,7 @@ function FrequentQuesSec() {
   return (
     <>
       <div className="max-w-[1200px] w-full mx-auto p-4 flex flex-col gap-7 ">
-        <h1 className="text-[43px] leading-[52px] font-[600] text-[#000000]">
+        <h1 className="text-[43px] text-center leading-[52px] font-[600] text-[#000000]">
           Frequently asked questions
         </h1>
         <div className="grid grid-cols-2 gap-3 max-md:grid-cols-1">
