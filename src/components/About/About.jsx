@@ -8,17 +8,29 @@ function About() {
         <>
             <section>
                 <div className="about-section">
-                    <div className='Menu-of-About'>
-                        <ul>
-                            <li className="button-color">About</li>
-                            <li>Outcomes</li>
-                            <li>Courses</li>
-                            <li>Testimonials</li>
-                        </ul>
+                    <div className="mt-4">
+<ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+    <li className="me-2">
+        <a href="#" className="inline-block px-4 py-3 text-gray-50 bg-purple-700
+        rounded-lg active" aria-current="page">About</a>
+    </li>
+    <li className="me-2">
+        <a href="#"  className="inline-block px-4 py-3 rounded-lg hover:text-gray-900
+         hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Outcomes</a>
+    </li>
+    <li className="me-2">
+        <a href="#" className="inline-block px-4 py-3 rounded-lg hover:text-gray-900
+         hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Courses</a>
+    </li>
+    <li className="me-2">
+        <a href="#" className="inline-block px-4 py-3 rounded-lg hover:text-gray-900
+         hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Testimonials</a>
+    </li>
+</ul>
                     </div>
-                    <hr style={{ 
-                        border: "3px solid #E0E0E0", marginTop: "12px",
-                    }} />
+                    <hr  style={{
+                        color:"#454545", padding:"0px 14px"
+                    }}/>
                     <div>
                         {/* First Part */}
                         <div className="one-part">
@@ -48,13 +60,13 @@ function About() {
                             <div className="third-part-section">
                                 <div className="third-one">
                                     <img src={Link} alt="LinkedIn" />
-                                    <h3>Shareable Certificate</h3>
-                                    <h6>Add to your LinkedIn profile</h6>
+                                    <h3 style={{color:"black"}}>Shareable Certificate</h3>
+                                    <h6 style={{color:"#454545"}}>Add to your LinkedIn profile</h6>
                                 </div>
                                 <div className="third-second">
                                     <img src={Bell} alt="Bell" />
-                                    <h3>Recently updated!</h3>
-                                    <h6>February 2024</h6>
+                                    <h3 style={{color:"black"}}>Recently updated!</h3>
+                                    <h6 style={{color:"#454545"}}>February 2024</h6>
                                 </div>
                             </div>
                         </div>
