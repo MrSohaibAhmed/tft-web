@@ -1,4 +1,6 @@
 import React from "react";
+import img1 from "/public/--1-1@2x.png";
+import img2 from "/public/--1-1@2x.png";
 
 function CourseDeatilHeader() {
   return (
@@ -45,7 +47,7 @@ function CourseDeatilHeader() {
             <div className="right flex relative justify-center items-center w-[100vw] lg:w-[40vw]">
               <div className="card z-10 relative h-[110vh] w-[100%] md:pt-0 md:w-[70%] lg:w-[80%] rounded-bl-lg rounded-br-lg bg-custom-gradient">
                 <img
-                  src="/public/--1-1@2x.png"
+                  src={img1}
                   className="absolute right-[-20px] top-[20px] w-[63px] h-[61px]"
                   alt=""
                 />
@@ -90,7 +92,7 @@ function CourseDeatilHeader() {
                 alt=""
               />
               <img
-                src="/public/--1-1@2x.png"
+                src={img1}
                 className="absolute right-[20px] bottom-[80px] w-[130px] h-[135px]"
                 alt=""
               />
