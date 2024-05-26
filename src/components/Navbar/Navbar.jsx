@@ -59,12 +59,12 @@ const Navbar = () => {
             <ul className=" lg:hidden flex gap-4 flex-col items-center justify-center h-full ">
               {navLinks.map((item) => (
                 <li key={item.label}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className="font-semibold hover:text-[#a435f0]  leading-normal text-lg text-slate-gray"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
               <button className=" bg-custom-gradient font-bold pt-[8px] pb-[8px] pl-[20px] pr-[20px] rounded-md text-white">
