@@ -6,6 +6,7 @@ import ProfessionalCertificateSec from "./components/ProfessionalCertificateSec"
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
+import CourseDeatilHeader from "./components/CouseDetailHeader/CourseDeatilHeader";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ProfessionalCertificateSec />
       <WhySection />
       <FrequentQuesSec />
+      <CourseDeatilHeader/>
       <Footer />
     </>
   );
