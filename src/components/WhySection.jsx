@@ -26,7 +26,7 @@ function WhySection() {
   ];
   return (
     <>
-      <div className="max-w-[1200px] w-full p-4 mx-auto flex flex-col gap-[50px] ">
+      <div className="max-w-[1200px] w-full  max-md:p-4 p-16 mx-auto flex flex-col gap-[50px] ">
         <h1 className="text-[43px] leading-[46px] font-[600] text-[#001E36]">
           Why people choose <br /> Coursera for their career
         </h1>

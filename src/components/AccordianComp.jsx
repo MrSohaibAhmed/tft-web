@@ -8,10 +8,10 @@ function AccordianComp(props) {
       {" "}
       <div className="flex justify-between items-center   ">
         <div className="flex flex-col gap-1">
-          <h1 className="text-[28px] font-[600] text-[#001E36]">
+          <h1 className="text-[28px] max-sm:text-[18px] font-[600] text-[#001E36]">
             {props.item.heading}
           </h1>
-          <p className="text-[18px] font-[300] text-[#7D7D7D]">
+          <p className="text-[18px] max-sm:text-[12px] font-[300] text-[#7D7D7D]">
             Course {props.item.course} &nbsp;&nbsp;&nbsp;&nbsp; ||
             &nbsp;&nbsp;&nbsp;&nbsp; {props.item.hour} hours
             &nbsp;&nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,7 +23,7 @@ function AccordianComp(props) {
           onClick={() => {
             setToggle(!toggle);
           }}
-          className={`cursor-pointer  transition-all duration-300 ease-in-out   ${toggle ? " rotate-180" : " rotate-0"} `}
+          className={`cursor-pointer max-sm:w-[40px]  transition-all duration-300 ease-in-out   ${toggle ? " rotate-180" : " rotate-0"} `}
           width={75}
           alt="arrow button"
         />
