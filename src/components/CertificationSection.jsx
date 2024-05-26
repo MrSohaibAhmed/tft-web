@@ -76,8 +76,8 @@ function CertificationSection() {
     "src/assets/images/WalmartLogo.png",
   ];
   return (
-    <div className=" flex flex-col gap-12">
-      <h1 className="font-[400] text-[72px] text-center italic text-[#350C50]">
+    <div className=" flex flex-col gap-12 mt-4">
+      <h1 className="font-[400] max-md:text-[52px] max-sm:text-[42px] text-[72px] text-center italic text-[#350C50]">
         Our <span className=" font-[500]">Certifications</span>
       </h1>
       <div className="grid grid-cols-4 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 gap-4 place-items-center place-content-start max-w-[1200px] w-full mx-auto ">

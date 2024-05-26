@@ -54,18 +54,18 @@ function ProfessionalCertificateSec() {
   ];
   return (
     <>
-      <div className=" max-w-[1200px] w-full mx-auto p-16">
+      <div className=" max-w-[1200px] w-full mx-auto max-md:p-4 p-16">
         <div className="flex flex-col gap-2">
-          <h1 className=" font-[600] text-[43px] leading-[52px] text-[#001E36] ">
+          <h1 className=" font-[600] max-sm:text-[36px] max-sm:leading-[42px] text-[43px] leading-[52px] text-[#001E36] ">
             Professional Certificate - 8 course series
           </h1>
-          <p className="font-[400] text-[22px] leading-[26px] text-[#000000]">
+          <p className="font-[400] max-sm:text-[18px] max-sm:leading-[22px] text-[22px] leading-[26px] text-[#000000]">
             Prepare for a career in the high-growth field of project management.
             In this program, you’ll develop the skills, knowledge, and portfolio
             to have a competitive edge in the job market as an entry-level
             project manager in as little as 3 months. No prior
           </p>
-          <span className="font-[700] text-[22px] leading-[26px] text-[#1460DD]">
+          <span className="font-[700] max-sm:text-[18px] max-sm:leading-[20px] text-[22px] leading-[26px] text-[#1460DD]">
             Read More
           </span>
         </div>
@@ -102,7 +102,7 @@ function ProfessionalCertificateSec() {
               years of Experience. I am Visual Communication Designer more than
               5 years of Experience.
             </p>
-<br />
+            <br />
             <h1 className="text-[26px] font-[600] text-[#939393]">
               More Courses
             </h1>
