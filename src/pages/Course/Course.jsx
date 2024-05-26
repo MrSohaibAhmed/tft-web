@@ -10,8 +10,9 @@ function Course() {
     <>
       <CourseDeatilHeader />
       <About />
-      <WhySection />
       <ProfessionalCertificateSec />
+      <WhySection />
+
       <FrequentQuesSec />
     </>
   );

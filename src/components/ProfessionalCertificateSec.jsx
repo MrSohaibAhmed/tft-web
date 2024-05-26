@@ -54,7 +54,7 @@ function ProfessionalCertificateSec() {
   ];
   return (
     <>
-      <div className=" max-w-[1200px] w-full mx-auto p-4">
+      <div className=" max-w-[1200px] w-full mx-auto p-16">
         <div className="flex flex-col gap-2">
           <h1 className=" font-[600] text-[43px] leading-[52px] text-[#001E36] ">
             Professional Certificate - 8 course series
