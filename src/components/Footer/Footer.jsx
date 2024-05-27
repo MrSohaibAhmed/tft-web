@@ -22,7 +22,7 @@ const Footer = () => {
           >
             <img src={Img} alt="Logo" />
           </div>
-          <div className="flex justify-between max-sm:flex-wrap gap-8 w-full">
+          <div className="flex w-[50%] max-md:w-[70%] max-sm:w-full justify-between max-sm:flex-wrap gap-8 ">
             <div
               className={`footer-content ${activeIndex === 0 ? "active" : ""}`}
               onClick={() => handleAccordionToggle(0)}
