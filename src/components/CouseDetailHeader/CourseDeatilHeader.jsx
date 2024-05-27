@@ -52,19 +52,19 @@ function CourseDeatilHeader() {
                   alt=""
                 />
                 <img
-                  src="/public/--1-3@2x.png"
+                  src="--1-3@2x.png"
                   className="absolute right-[-20px] top-[160px] w-[113px] h-[111px]"
                   alt=""
                 />
                 <img
-                  src="/public/--1-2@2x.png"
+                  src="--1-2@2x.png"
                   className="absolute left-[-20px] top-[80px] w-[89px] h-[87px]"
                   alt=""
                 />
 
                 <div className="top h-[30%] flex justify-center items-center relative bottom-[-80px] ">
                   <img
-                    src="/public/Rectangle 15.png"
+                    src="Rectangle 15.png"
                     className="rounded-[50%]"
                     alt=""
                   />
@@ -87,7 +87,7 @@ function CourseDeatilHeader() {
                 </div>
               </div>
               <img
-                src="/public/--1-4@2x.png"
+                src="--1-4@2x.png"
                 className="absolute left-[-90px] bottom-[280px] w-[130px] h-[135px]"
                 alt=""
               />

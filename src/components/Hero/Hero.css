@@ -1,11 +1,10 @@
 .shine-effect {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
-    pointer-events: none;
-    mix-blend-mode: overlay;
-    transition: left 0.1s, top 0.1s;
-  }
-  
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  transition: transform 0.1s, opacity 0.1s;
+}
