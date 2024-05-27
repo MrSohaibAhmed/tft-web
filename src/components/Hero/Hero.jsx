@@ -38,17 +38,17 @@ const Header = () => {
                 data-aos-duration="600"
                 className="w-full text-center relative z-10 text-white"
               >
-                <span className="font-semibold div text-center text-[67px] sm:text-[67px]">
+                <span className="font-semibold div text-center text-[67px] max-sm:text-[37px]">
                   Let&apos;s
                 </span>
-                <span className="font-semibold div text-center text-[67px] sm:text-[67px]">
+                <span className="font-semibold div text-center text-[67px] max-sm:text-[37px]">
                   &nbsp; Make a Smart and Tech <br />
                 </span>
                 <div className="">
-                  <span className="div2 font-semibold text-[67px] sm:text-[67px]">
+                  <span className="div2 font-semibold text-[67px] max-sm:text-[37px]">
                     Buddy
                   </span>
-                  <span className="div2 font-semibold text-[67px] sm:text-[67px]">
+                  <span className="div2 font-semibold text-[67px] max-sm:text-[37px]">
                     <i>Future</i> Together
                   </span>
                 </div>

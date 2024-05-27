@@ -14,10 +14,8 @@ const Navbar = () => {
   const [navbarAnimation, setNavbarAnimation] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      // console.log("hello", window.scrollY);
       if (window.scrollY > 10) {
         setNavbarAnimation(true);
-        console.log("i am greter");
       } else {
         setNavbarAnimation(false);
       }
@@ -61,35 +59,41 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
-      {isMenuOpen && (
-        <div>
-          <nav className="fixed top-0 right-0 left-0 bottom-0 lg:bottom-auto bg-slate-100  ">
-            <div
-              className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
-              onClick={() => {
-                setIsMenuOpen(!isMenuOpen);
-              }}
-            >
-              <AiOutlineClose className="text-[#a435f0] font-extrabold" />
-            </div>
-            <ul className=" lg:hidden flex gap-4 flex-col items-center justify-center h-full ">
-              {navLinks.map((item) => (
-                <li key={item.label}>
-                  <Link
-                    to={item.href}
-                    className="font-semibold hover:text-[#a435f0]  leading-normal text-lg text-slate-gray"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-              <button className=" bg-custom-gradient font-bold pt-[8px] pb-[8px] pl-[20px] pr-[20px] rounded-md text-white">
-                Register
-              </button>
-            </ul>
-          </nav>
+
+      <nav
+        className={`fixed ${
+          isMenuOpen ? "  right-0 " : "right-[-100vw]  "
+        } transition-all top-0 w-[100vw] h-[100vh] z-[100]  duration-300 ease-linear lg:bottom-auto bg-slate-100  `}
+      >
+        <div
+          className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
+          onClick={() => {
+            setIsMenuOpen(!isMenuOpen);
+          }}
+        >
+          {isMenuOpen && (
+            <AiOutlineClose className="text-[#a435f0] font-extrabold" />
+          )}
         </div>
-      )}
+        <ul className=" lg:hidden flex gap-4 flex-col items-center justify-center h-full ">
+          {navLinks.map((item) => (
+            <li key={item.label}>
+              <Link
+                onClick={() => {
+                  setIsMenuOpen(!isMenuOpen);
+                }}
+                to={item.href}
+                className="font-semibold hover:text-[#a435f0]  leading-normal text-lg text-slate-gray"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+          <button className=" bg-custom-gradient font-bold pt-[8px] pb-[8px] pl-[20px] pr-[20px] rounded-md text-white">
+            Register
+          </button>
+        </ul>
+      </nav>
     </div>
   );
 };
