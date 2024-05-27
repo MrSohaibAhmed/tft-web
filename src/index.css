@@ -55,15 +55,47 @@
 .slideout a:hover::before {
   transform-origin: 0 50%;
 }
-button:active {
-  transform: scale(0.97);
-  transition: transform 0.3s ease;
+
+.div {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
 }
-.text-animation:last-of-type {
-  margin-left: -360px;
+
+.div:first-of-type {
+  animation: showup 7s infinite;
+}
+
+.div:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.div:last-of-type span {
+  margin-left: -750;
   animation: slidein 7s infinite;
 }
-@keyframes slidein {
+.div2 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.div2:first-of-type {
+  animation: showup 7s infinite;
+}
+
+.div2:last-of-type {
+  width: 0px;
+  animation: reveal2 7s infinite;
+}
+
+.div2:last-of-type span {
+  margin-left: -550;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
   0% {
     opacity: 0;
   }
@@ -75,5 +107,61 @@ button:active {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 750px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 750px;
+  }
+}
+@keyframes reveal2 {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 550px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 550px;
   }
 }
