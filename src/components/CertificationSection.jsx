@@ -87,7 +87,7 @@ function CertificationSection() {
       >
         Our <span className=" font-[500]">Certifications</span>
       </h1>
-      <div className="grid grid-cols-4 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 gap-4 place-items-center place-content-start max-w-[1200px] w-full mx-auto ">
+      <div className="grid grid-cols-4 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 gap-4 place-items-center place-content-start max-w-[1400px] w-full mx-auto ">
         {data.map((item) => {
           return (
             <>

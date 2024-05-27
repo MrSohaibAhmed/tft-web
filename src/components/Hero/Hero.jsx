@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import { useState, useEffect } from "react";
 import img1 from "../../../public/--1-3@2x.png";
@@ -129,7 +128,6 @@ const Header = () => {
         data-aos-easing="ease-in-sine"
         data-aos-duration="600"
         src={img4}
-        
         // src="../../../public/circle@2x.png"
         className="absolute  h-[20vh] sm:h-[30vh] md:h-[40vh] lg:h-[50vh] right-[-8vw] top-[0px]"
         alt=""

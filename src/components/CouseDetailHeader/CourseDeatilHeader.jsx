@@ -4,7 +4,7 @@ import img2 from "/public/--1-1@2x.png";
 
 function CourseDeatilHeader() {
   return (
-    <div className="bg-white min-h-[120vh]">
+    <div className="bg-white min-h-[120vh] max-w-[1400px] w-full mx-auto">
       <div className="bg-[url('/Gradient-Banner.png')] bg-no-repeat bg-cover relative h-fit min-h-[100vh] overflow-hidden">
         <div className="bg-[url('/Pixel-Effect.png')] relative  h-fit min-h-[100vh] overflow-hidden">
           <div className="flex  min-h-[110vh] items-center flex-col lg:flex-row">

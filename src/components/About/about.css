@@ -62,6 +62,7 @@
   margin-top: 20px;
   font-family: 'Inter', sans-serif;
   text-align: left;
+
 }
 
 .second-part {
@@ -87,6 +88,8 @@
   border-radius: 8px;
   padding: 7px;
   margin-right: 5px;
+ padding: 5px 15px ;
+font-weight: 600;
 }
 
 .third-part-section {
