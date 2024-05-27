@@ -34,7 +34,9 @@ const Navbar = () => {
           </a>
           <ul className="flex justify-center items-center gap-16 max-lg:hidden">
             {navLinks.map((item) => (
+
               <li key={item.label} className="menu">
+
                 <Link
                   to={item.href}
                   className="font-montserrat hover:border-b-2 border-[#892BC8] transition-all ease-linear font-semibold leading-normal text-lg text-slate-gray hover:text-[#a435f0]"
@@ -74,6 +76,7 @@ const Navbar = () => {
           >
             {isMenuOpen && (
               <AiOutlineClose className="text-[#a435f0] font-extrabold" />
+
             )}
           </div>
           <ul className=" lg:hidden flex gap-4 flex-col items-center justify-center h-full ">
@@ -95,7 +98,7 @@ const Navbar = () => {
             </button>
           </ul>
         </nav>
-      </div>{" "}
+      </div>
     </div>
   );
 };
