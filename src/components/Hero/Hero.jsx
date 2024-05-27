@@ -30,15 +30,15 @@ const Header = () => {
       <div className="bg-[url('/Pixel-Effect.png')] relative h-[80vh] md:h-[100vh] overflow-hidden">
         <div className="w-[100%] h-[100%] relative flex items-center flex-col ">
           <div className="relative flex justify-center items-center flex-col">
-            <h1 className="flex justify-center items-center relative top-14 z-2 leading-tight">
-              <h1 className="w-full relative z-10 text-white">
-                <span className="font-semibold text-center text-[7vw] sm:text-[7vw]">
+            <h1 className="flex justify-center items-center relative top-16 z-2 leading-tight">
+              <h1 className="w-full text-center relative z-10 text-white">
+                <span className="font-semibold text-center text-[67px] sm:text-[67px]">
                   Lets Make a Smart and Tech <br />
                 </span>
                 <center>
-                  <span className="font-semibold text-[7vw] sm:text-[7vw]">{`Buddy `}</span>
-                  <i className="text-[5vw] text-center">Future</i>
-                  <span className="font-semibold text-[7vw] sm:text-[7vw]">
+                  <span className="font-semibold text-[67px] sm:text-[67px]">{`Buddy `}</span>
+                  <i className="text-[67px] sm:text-[67px] text-center">Future</i>
+                  <span className="font-semibold text-[67px] sm:text-[67px]">
                     {" "}
                     Together
                   </span>
