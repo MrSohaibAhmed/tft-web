@@ -10,19 +10,6 @@ import img7 from "../../../public/--1-1@2x.png";
 import img8 from "../../../public/Element-Blend-circle.png";
 
 const Header = () => {
-  // const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
-  // useEffect(() => {
-  //   const handleMouseMove = (event) => {
-  //     setMousePosition({ x: event.clientX, y: event.clientY });
-  //   };
-
-  //   window.addEventListener("mousemove", handleMouseMove);
-
-  //   return () => {
-  //     window.removeEventListener("mousemove", handleMouseMove);
-  //   };
-  // }, []);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isMouseMoving, setIsMouseMoving] = useState(false);
 
@@ -36,10 +23,10 @@ const Header = () => {
       });
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener("mousemove", handleMouseMove);
       cancelAnimationFrame(animationFrameId);
     };
   }, []);
@@ -97,8 +84,6 @@ const Header = () => {
         </div>
       </div>
       <img
-        // src="/public/--1-3@2x.png"
-        // src="../../../public/--1-3@2x.png"
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
@@ -109,13 +94,11 @@ const Header = () => {
       />
       {/* iD1 */}
       <img
-        // src="/public/id.png"
         data-aos="fade-right"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
         data-aos-duration="600"
         src={img2}
-        // src="../../../public/id.png"
         className="absolute top-[10%] md:top-[25%] left-[5%] h-[50px] w-[50px] md:h-[100px] md:w-[100px]"
         alt=""
       />
@@ -186,13 +169,7 @@ const Header = () => {
         alt=""
       />
       <img
-        // data-aos="fade-down"
-        // data-aos-offset="200"
-        // data-aos-easing="ease-in-sine"
-        // data-aos-duration="600"
-        // src="/public/Element-Blend-circle.png"
         src={img8}
-        // src="../../../public/Element-Blend-circle.png"
         className="absolute h-[35vh] animate-spin  sm:h-[45vh] md:h-[60vh] lg:h-[70vh] left-[-13vw] bottom-[-10vh]"
         alt=""
       />
