@@ -1,4 +1,3 @@
-import React from "react";
 import CourseDeatilHeader from "../../components/CouseDetailHeader/CourseDeatilHeader";
 import WhySection from "../../components/WhySection";
 import ProfessionalCertificateSec from "../../components/ProfessionalCertificateSec";

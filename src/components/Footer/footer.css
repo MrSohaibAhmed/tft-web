@@ -1,10 +1,10 @@
 /* Existing styles */
 .footer {
   width: 100%;
-  height: 439px;
+  min-height: 439px;
   gap: 0px;
-  background-color: #350C50;
-  border-top: 1px solid #FFFFFF1A;
+  background-color: #350c50;
+  border-top: 1px solid #ffffff1a;
 }
 
 .main-footer-part {
@@ -12,7 +12,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
-  flex-direction: row;
   padding-top: 30px;
 }
 
@@ -23,7 +22,7 @@
 }
 
 .footer-content h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
@@ -32,7 +31,7 @@
 }
 
 .footer-content p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -43,34 +42,3 @@
 }
 
 /* Media queries for smaller screens */
-@media (max-width: 768px) {
-  .main-footer-part {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-content {
-    width: 100%;
-    background-color: white;
-    color: #000000;
-    margin-top: 20px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .footer-content h3 {
-    cursor: pointer;
-    color: #000000;
-  }
-
-  .footer-content p {
-    display: none;
-    color: #000000;
-  }
-
-  .footer-content.active p {
-    display: block;
-  }
-}
