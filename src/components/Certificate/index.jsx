@@ -3,7 +3,13 @@ import certificateOutline from "../../../public/certificate-outline.png";
 function Certificate() {
   return (
     <>
-      <div className=" max-w-[1400px] w-full mx-auto flex justify-center max-md:p-4 p-16 items-center">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600"
+        className=" max-w-[1400px] w-full mx-auto flex justify-center max-md:p-4 p-16 items-center"
+      >
         <div className="w-full border-8 gap-2 flex relative  rounded-full border-[#350C50] p-6 mt-4">
           <img className=" aspect-auto " src={Vector} alt="vector" />
           <div className="">

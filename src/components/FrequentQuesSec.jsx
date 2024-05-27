@@ -18,6 +18,10 @@ function FrequentQuesSec() {
             return (
               <>
                 <div
+data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="600"
                   className=" p-4 rounded-3xl"
                   style={{ boxShadow: "5px 5px 13.1px 4px #0000001C" }}
                 >
