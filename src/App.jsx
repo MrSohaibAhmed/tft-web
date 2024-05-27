@@ -10,7 +10,13 @@ import CourseDeatilHeader from "./components/CouseDetailHeader/CourseDeatilHeade
 import Course from "./pages/Course/Course";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       {/* <h1 className="text-3xl font-bold underline">TFT LATEST WEBSITE</h1> */}

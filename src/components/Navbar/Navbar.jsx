@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "/Logo-main.png";
@@ -11,20 +11,35 @@ const Navbar = () => {
     { href: "#products", label: "Team" },
     { href: "#contact-us", label: "Testimonials" },
   ];
+  const [navbarAnimation, setNavbarAnimation] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      // console.log("hello", window.scrollY);
+      if (window.scrollY > 10) {
+        setNavbarAnimation(true);
+        console.log("i am greter");
+      } else {
+        setNavbarAnimation(false);
+      }
+    });
+  }, []);
   return (
-    <div className="relative z-50">
-      <header className="sm:px-8 px-4 py-2 z-10 w-full">
+    <div
+      className={`sticky top-0 bg-white z-50  ${
+        navbarAnimation ? "bounce-once" : ""
+      }`}
+    >
+      <header className="sm:px-8 px-4 py-2  z-10 w-full">
         <nav className="flex justify-between items-center max-container">
           <a href="/" className="text-3xl font-bold p-3">
             <img src={logo} alt="Logo" className="w-[150px]" />
           </a>
           <ul className="flex justify-center items-center gap-16 max-lg:hidden">
             {navLinks.map((item) => (
-              <li key={item.label}
-              >
+              <li key={item.label} className="menu">
                 <Link
                   to={item.href}
-                  className="font-montserrat font-semibold leading-normal text-lg text-slate-gray hover:text-[#a435f0]"
+                  className="font-montserrat hover:border-b-2 border-[#892BC8] transition-all ease-linear font-semibold leading-normal text-lg text-slate-gray hover:text-[#a435f0]"
                 >
                   {item.label}
                 </Link>

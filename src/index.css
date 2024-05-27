@@ -1,3 +1,167 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes bounce-once {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25%);
+  }
+}
+.bounce-once {
+  animation: bounce-once 0.76s ease-in-out 1;
+}
+
+.menu,
+.slideout a {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: block;
+  position: relative;
+  padding: 4px 0;
+}
+
+.menu::before,
+.slideout a::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: 0.5s transform ease;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 0 50%;
+}
+
+.menu:hover::before,
+.slideout a:hover::before {
+  transform: scale3d(1, 1, 1);
+}
+
+.menu::before,
+.slideout a::before {
+  background: #892bc8;
+  transform-origin: 100% 50%;
+}
+
+.menu:hover::before,
+.slideout a:hover::before {
+  transform-origin: 0 50%;
+}
+
+.div {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.div:first-of-type {
+  animation: showup 7s infinite;
+}
+
+.div:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.div:last-of-type span {
+  margin-left: -750;
+  animation: slidein 7s infinite;
+}
+.div2 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.div2:first-of-type {
+  animation: showup 7s infinite;
+}
+
+.div2:last-of-type {
+  width: 0px;
+  animation: reveal2 7s infinite;
+}
+
+.div2:last-of-type span {
+  margin-left: -550;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 750px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 750px;
+  }
+}
+@keyframes reveal2 {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 550px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 550px;
+  }
+}
