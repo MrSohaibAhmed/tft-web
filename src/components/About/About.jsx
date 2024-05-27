@@ -1,7 +1,8 @@
 //import React from 'react';
 import "./about.css";
-import Bell from "../../assets/images/bell.png";
-import Link from "../../assets/images/linkdin.png";
+import Bell from "../../../public/bell.png";
+
+import Link from "../../../public/linkdin.png";
 
 function About() {
   return (

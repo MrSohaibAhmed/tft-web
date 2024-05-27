@@ -1,5 +1,10 @@
 import CertificationCard from "./CertificationCard";
-
+import AirbnbLogo from "../../public/AirbnbLogo.png";
+import FedExLogo from "../../public/FedExLogo.png";
+import GoogleLogo from "../../public/GoogleLogo.png";
+import HubspotLogo from "../../public/HubspotLogo.png";
+import MicrosoftLogo from "../../public/MicrosoftLogo.png";
+import WalmartLogo from "../../public/WalmartLogo.png";
 function CertificationSection() {
   const data = [
     {
@@ -68,12 +73,12 @@ function CertificationSection() {
     },
   ];
   const images = [
-    "src/assets/images/AirbnbLogo.png",
-    "src/assets/images/FedExLogo.png",
-    "src/assets/images/GoogleLogo.png",
-    "src/assets/images/HubspotLogo.png",
-    "src/assets/images/MicrosoftLogo.png",
-    "src/assets/images/WalmartLogo.png",
+    AirbnbLogo,
+    FedExLogo,
+    GoogleLogo,
+    HubspotLogo,
+    MicrosoftLogo,
+    WalmartLogo,
   ];
 
   return (

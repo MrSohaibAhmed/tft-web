@@ -19,7 +19,7 @@ function AccordianComp(props) {
           </p>
         </div>
         <img
-          src="src/assets/images/ArrowDown.png"
+          src="../../../ArrowDown.png"
           onClick={() => {
             setToggle(!toggle);
           }}

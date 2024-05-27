@@ -3,21 +3,21 @@ import InstructorCard from "./InstructorCard";
 function WhySection() {
   const data = [
     {
-      img: "src/assets/images/Rectangle15.png",
+      img: "../../../Rectangle15.png",
       name: "Salar Haris",
       subheading: "University Of Central Punjab",
       description:
         "I am Visual Communication Designer more than 5 years of Experience. I am Visual Communication Designer more than 5 years of Experience.",
     },
     {
-      img: "src/assets/images/Rectangle15.png",
+      img: "../../../Rectangle15.png",
       name: "Steevin Cva",
       subheading: "University Of Central Punjab",
       description:
         "I am Visual Communication Designer more than 5 years of Experience. I am Visual Communication Designer more than 5 years of Experience.",
     },
     {
-      img: "src/assets/images/Rectangle37.png",
+      img: "../../../Rectangle37.png",
       name: "Maham Ali",
       subheading: "University Of Central Punjab",
       description:

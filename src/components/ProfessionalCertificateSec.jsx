@@ -1,5 +1,8 @@
 import ProfileComp from "./ProfileComp";
 import AccordianComp from "./AccordianComp";
+import Rectangle15 from "../../public/Rectangle15.png";
+import Rectangle36 from "../../public/Rectangle36.png";
+import Rectangle37 from "../../public/Rectangle37.png";
 
 function ProfessionalCertificateSec() {
   const data = [
@@ -38,18 +41,18 @@ function ProfessionalCertificateSec() {
   const instructor = {
     heading: "Salar Haris",
     content: "Visual Communication Designer",
-    img: "src/assets/images/Rectangle15.png",
+    img:  Rectangle15,
   };
   const courseData = [
     {
       heading: "Graphic Design",
       content: "Beginner Certifcatie",
-      img: "src/assets/images/Rectangle36.png",
+      img: Rectangle36,
     },
     {
       heading: "Adobe Photoshop",
       content: "Intermediate Certifcates",
-      img: "src/assets/images/Rectangle37.png",
+      img: Rectangle37,
     },
   ];
   return (
