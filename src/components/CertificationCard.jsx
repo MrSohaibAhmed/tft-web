@@ -3,6 +3,10 @@ function CertificationCard(props) {
   return (
     <>
       <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600"
         className="  font-[inter] hover:scale-[0.97] transition-all ease-in-out cursor-pointer max-w-[292px] w-full rounded-lg overflow-hidden"
         style={{ boxShadow: "6px 8px 18.3px 5px #00000014" }}
       >

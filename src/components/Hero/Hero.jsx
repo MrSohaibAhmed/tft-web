@@ -31,13 +31,27 @@ const Header = () => {
         <div className="w-[100%] h-[100%] relative flex items-center flex-col ">
           <div className="relative flex justify-center items-center flex-col">
             <h1 className="flex justify-center items-center relative top-16 z-2 leading-tight">
-              <h1 className="w-full text-center relative z-10 text-white">
-                <span className="font-semibold text-center text-[67px] sm:text-[67px]">
+              <h1
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="600"
+                className="w-full text-center relative z-10 text-white"
+              >
+                <span className="font-semibold  text-center text-[67px] sm:text-[67px]">
                   Lets Make a Smart and Tech <br />
                 </span>
-                <center>
+                <center
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                  className=""
+                >
                   <span className="font-semibold text-[67px] sm:text-[67px]">{`Buddy `}</span>
-                  <i className="text-[67px] sm:text-[67px] text-center">Future</i>
+                  <i className="text-[67px] sm:text-[67px] text-center">
+                    Future
+                  </i>
                   <span className="font-semibold text-[67px] sm:text-[67px]">
                     {" "}
                     Together
@@ -48,11 +62,21 @@ const Header = () => {
           </div>
           <div className="absolute bottom-[-60px] z-10 flex justify-center items-center flex-col">
             <img
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
               src="/womanstandingworkinghertabletremovebgpreview-1@2x.png"
               className="relative h-[60vh] md:h-[65vh] lg:h-[72vh] bottom-0"
               alt=""
             />
-            <button className=" bg-custom-gradient absolute bottom-[100px] sm:w-[80px] md:w-[120px] font-bold pt-[8px] pb-[8px] pl-[20px] pr-[20px] rounded-md text-white">
+            <button
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+              className=" bg-custom-gradient  hover:scale-[0.97] text-[30px] absolute bottom-[150px]   font-bold py-[8px]  px-[20px] rounded-md text-white"
+            >
               Course
             </button>
           </div>

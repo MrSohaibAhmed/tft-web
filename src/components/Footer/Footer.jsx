@@ -1,6 +1,6 @@
-import  { useState } from 'react';
-import './footer.css';
-import Img from '../../assets/logo.png';
+import { useState } from "react";
+import "./footer.css";
+import Img from "../../assets/logo.png";
 
 const Footer = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -13,13 +13,23 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <div className="main-footer-part">
-          <div className="footer-logo">
+          <div
+            className="footer-logo"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
+          >
             <img src={Img} alt="Logo" />
           </div>
 
           <div
-            className={`footer-content ${activeIndex === 0 ? 'active' : ''}`}
+            className={`footer-content ${activeIndex === 0 ? "active" : ""}`}
             onClick={() => handleAccordionToggle(0)}
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
           >
             <h3>Product</h3>
             <p>Store</p>
@@ -32,8 +42,12 @@ const Footer = () => {
           </div>
 
           <div
-            className={`footer-content ${activeIndex === 1 ? 'active' : ''}`}
+            className={`footer-content ${activeIndex === 1 ? "active" : ""}`}
             onClick={() => handleAccordionToggle(1)}
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
           >
             <h3>Company</h3>
             <p>Careers</p>
@@ -46,8 +60,12 @@ const Footer = () => {
           </div>
 
           <div
-            className={`footer-content ${activeIndex === 2 ? 'active' : ''}`}
+            className={`footer-content ${activeIndex === 2 ? "active" : ""}`}
             onClick={() => handleAccordionToggle(2)}
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
           >
             <h3>Community</h3>
             <p>Community Stories</p>
