@@ -1,4 +1,4 @@
-import React from "react";
+
 import Header from "../../components/Hero/Hero";
 import CertificationSection from "../../components/CertificationSection";
 

@@ -4,7 +4,7 @@ import img2 from "/public/--1-1@2x.png";
 
 function CourseDeatilHeader() {
   return (
-    <div className="bg-white min-h-[120vh]">
+    <div className="bg-white min-h-[120vh] max-w-[1400px] w-full mx-auto">
       <div className="bg-[url('/Gradient-Banner.png')] bg-no-repeat bg-cover relative h-fit min-h-[100vh] overflow-hidden">
         <div className="bg-[url('/Pixel-Effect.png')] relative  h-fit min-h-[100vh] overflow-hidden">
           <div className="flex  min-h-[110vh] items-center flex-col lg:flex-row">
@@ -107,40 +107,3 @@ function CourseDeatilHeader() {
 
 export default CourseDeatilHeader;
 
-//box Code
-
-// <div className="h-full w-4/5 shadow-2xl">
-// <div className="w-full h-  bg-gradient-to-r from-[#350C50] to-[#C83AF2]">
-
-// </div>
-// <div className="w-full">
-//   <center>
-//     <div className=" p-10">
-//       <h2 className="text-[#350C50] font-[600] text-[35px]">
-//         Salar Haris
-//       </h2>
-
-//       <p className="text-[#350C50]">
-//         Visual Communication Designer
-//       </p>
-//     </div>
-//   </center>
-//   <div className=" p-6">
-//     <h3 className="font-[500] text-[30px] text-[#350C50]">
-//       Description
-//     </h3>
-//     <p className="text-[#350C50]">
-//       I am Visual Communication Designer more than 5 years of
-//       Experience. I am Visual Communication Designer more than 5
-//       years of Experience. I am Visual Communication Designer
-//       more than 5 years of Experience. I am Visual Communication
-//       Designer more than 5 years of Experience.
-//     </p>
-//   </div>
-//   <center>
-//     <button className=" bg-custom-gradient text-[25px] font-bold pt-[8px] pb-[8px] pl-[20px] pr-[20px] rounded-md text-white">
-//       Get Register
-//     </button>
-//   </center>
-// </div>
-// </div>
