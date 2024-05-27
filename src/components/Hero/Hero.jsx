@@ -129,8 +129,9 @@ const Header = () => {
         data-aos-easing="ease-in-sine"
         data-aos-duration="600"
         src={img4}
+        
         // src="../../../public/circle@2x.png"
-        className="absolute h-[20vh] sm:h-[30vh] md:h-[40vh] lg:h-[50vh] right-[-8vw] top-[0px]"
+        className="absolute  h-[20vh] sm:h-[30vh] md:h-[40vh] lg:h-[50vh] right-[-8vw] top-[0px]"
         alt=""
       />
       <img
@@ -167,14 +168,14 @@ const Header = () => {
         alt=""
       />
       <img
-        data-aos="fade-down"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
-        data-aos-duration="600"
+        // data-aos="fade-down"
+        // data-aos-offset="200"
+        // data-aos-easing="ease-in-sine"
+        // data-aos-duration="600"
         // src="/public/Element-Blend-circle.png"
         src={img8}
         // src="../../../public/Element-Blend-circle.png"
-        className="absolute h-[35vh] sm:h-[45vh] md:h-[60vh] lg:h-[70vh] left-[-13vw] bottom-[-10vh]"
+        className="absolute h-[35vh] animate-spin  sm:h-[45vh] md:h-[60vh] lg:h-[70vh] left-[-13vw] bottom-[-10vh]"
         alt=""
       />
 
