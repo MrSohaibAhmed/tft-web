@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="main-footer-part">
           <div
             className="footer-logo"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
@@ -44,7 +44,7 @@ const Footer = () => {
           <div
             className={`footer-content ${activeIndex === 1 ? "active" : ""}`}
             onClick={() => handleAccordionToggle(1)}
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
@@ -62,7 +62,7 @@ const Footer = () => {
           <div
             className={`footer-content ${activeIndex === 2 ? "active" : ""}`}
             onClick={() => handleAccordionToggle(2)}
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
