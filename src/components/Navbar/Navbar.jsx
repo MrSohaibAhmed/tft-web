@@ -20,7 +20,8 @@ const Navbar = () => {
           </a>
           <ul className="flex justify-center items-center gap-16 max-lg:hidden">
             {navLinks.map((item) => (
-              <li key={item.label}>
+              <li key={item.label}
+              >
                 <Link
                   to={item.href}
                   className="font-montserrat font-semibold leading-normal text-lg text-slate-gray hover:text-[#a435f0]"
@@ -58,7 +59,11 @@ const Navbar = () => {
             </div>
             <ul className=" lg:hidden flex gap-4 flex-col items-center justify-center h-full ">
               {navLinks.map((item) => (
-                <li key={item.label}>
+                <li key={item.label}
+                onClick={()=>{
+                  setIsMenuOpen(!isMenuOpen)
+                }}
+                >
                   <Link
                     to={item.href}
                     className="font-semibold hover:text-[#a435f0]  leading-normal text-lg text-slate-gray"
