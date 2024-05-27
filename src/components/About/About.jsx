@@ -64,21 +64,41 @@ function About() {
               <h1 className="heading-style">What you&apos;ll learn</h1>
               <div className="one-part-section">
                 <ul className="font-[400] grid grid-cols-2 gap-4 leading-8 text-[20px]">
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="600"
+                  >
                     Apply your skills to projects and build a portfolio that
                     showcases your proficiency to employers while preparing for
                     the CAPM certification exam.
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="600"
+                  >
                     Incorporate Agile concepts of adaptive planning, iterative
                     development, and continuous improvement leading to early
                     deliveries and customer value.
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="600"
+                  >
                     Master the most up-to-date concepts, tools, principles, and
                     language project managers use in their daily roles.
                   </li>
-                  <li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="600"
+                  >
                     Track and manage projects, including addressing difficult
                     client situations and how activities shift throughout the
                     project management lifecycle.
@@ -90,17 +110,51 @@ function About() {
             <div className="second-part">
               <h1 className="heading-style">Skills you&apos;ll gain</h1>
               <ul className="font-[400]  text-[20px]">
-                <li className="">Project Management</li>
-                <li>Team</li>
-                <li>System Administration</li>
-                <li>Notion</li>
+                <li
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                >
+                  Project Management
+                </li>
+                <li
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                >
+                  Team
+                </li>
+                <li
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                >
+                  System Administration
+                </li>
+                <li
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                >
+                  Notion
+                </li>
               </ul>
             </div>
             {/* Third Part */}
             <div className="third-part pt-7">
               <h1 className="heading-style ">Details to know</h1>
               <div className="third-part-section flex items-baseline">
-                <div className="third-one">
+                <div
+                  className="third-one"
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                >
                   <img src={Link} alt="LinkedIn" />
                   <h3
                     style={{ color: "black" }}
@@ -112,7 +166,13 @@ function About() {
                     Add to your LinkedIn profile
                   </h6>
                 </div>
-                <div className="third-second">
+                <div
+                  className="third-second"
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="600"
+                >
                   <img src={Bell} alt="Bell" />
                   <h3
                     style={{ color: "black" }}

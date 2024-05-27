@@ -41,7 +41,7 @@ function ProfessionalCertificateSec() {
   const instructor = {
     heading: "Salar Haris",
     content: "Visual Communication Designer",
-    img:  Rectangle15,
+    img: Rectangle15,
   };
   const courseData = [
     {
@@ -74,6 +74,10 @@ function ProfessionalCertificateSec() {
         </div>
         <div className="flex mt-10 gap-7 max-lg:flex-wrap items-start justify-center">
           <div
+            data-aos="fade-zoom-in"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
             className="p-8  rounded-3xl flex flex-col gap-2 max-w-[750px] w-full"
             style={{ boxShadow: " 5px 5px 13.1px 4px #0000001C" }}
           >
@@ -87,6 +91,10 @@ function ProfessionalCertificateSec() {
           </div>
 
           <div
+            data-aos="fade-zoom-in"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
             className=" p-8 rounded-3xl max-w-[400px] w-full flex-auto "
             style={{ boxShadow: "5px 5px 13.1px 4px #0000001C" }}
           >
