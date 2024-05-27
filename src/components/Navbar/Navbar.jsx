@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div
       className={` transition-all duration-300 ease bg-white z-50  ${
-        navbarAnimation ? "bounce-once sticky top-0" : " relative"
+        navbarAnimation ? "bounce-once sticky top-0 shadow-lg" : " relative"
       }`}
     >
       <header className="sm:px-8 px-4 py-2  w-full">
