@@ -9,7 +9,7 @@ function FrequentQuesSec() {
   ];
   return (
     <>
-      <div className="max-w-[1200px] w-full mx-auto  max-md:p-4 p-16 flex flex-col gap-7 ">
+      <div className="max-w-[1400px] w-full mx-auto  max-md:p-4 p-16 flex flex-col gap-7 ">
         <h1 className="text-[43px] text-center leading-[52px] font-[600] text-[#000000]">
           Frequently asked questions
         </h1>
@@ -18,6 +18,10 @@ function FrequentQuesSec() {
             return (
               <>
                 <div
+data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="600"
                   className=" p-4 rounded-3xl"
                   style={{ boxShadow: "5px 5px 13.1px 4px #0000001C" }}
                 >

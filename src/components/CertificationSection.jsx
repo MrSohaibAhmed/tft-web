@@ -1,5 +1,10 @@
 import CertificationCard from "./CertificationCard";
-
+import AirbnbLogo from "../../public/AirbnbLogo.png";
+import FedExLogo from "../../public/FedExLogo.png";
+import GoogleLogo from "../../public/GoogleLogo.png";
+import HubspotLogo from "../../public/HubspotLogo.png";
+import MicrosoftLogo from "../../public/MicrosoftLogo.png";
+import WalmartLogo from "../../public/WalmartLogo.png";
 function CertificationSection() {
   const data = [
     {
@@ -68,12 +73,12 @@ function CertificationSection() {
     },
   ];
   const images = [
-    "src/assets/images/AirbnbLogo.png",
-    "src/assets/images/FedExLogo.png",
-    "src/assets/images/GoogleLogo.png",
-    "src/assets/images/HubspotLogo.png",
-    "src/assets/images/MicrosoftLogo.png",
-    "src/assets/images/WalmartLogo.png",
+    AirbnbLogo,
+    FedExLogo,
+    GoogleLogo,
+    HubspotLogo,
+    MicrosoftLogo,
+    WalmartLogo,
   ];
 
   return (
@@ -87,7 +92,7 @@ function CertificationSection() {
       >
         Our <span className=" font-[500]">Certifications</span>
       </h1>
-      <div className="grid grid-cols-4 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 gap-4 place-items-center place-content-start max-w-[1200px] w-full mx-auto ">
+      <div className="grid grid-cols-4 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 gap-4 place-items-center place-content-start max-w-[1400px] w-full mx-auto ">
         {data.map((item) => {
           return (
             <>

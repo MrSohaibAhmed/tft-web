@@ -3,6 +3,10 @@ function InstructorCard(props) {
   return (
     <>
       <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600"
         className=" max-w-96 w-full flex justify-center items-center gap-1 flex-col p-8"
         style={{
           boxShadow: "5px 5px 13.1px 4px #0000001C",

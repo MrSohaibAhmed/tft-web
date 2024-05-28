@@ -1,5 +1,8 @@
 import ProfileComp from "./ProfileComp";
 import AccordianComp from "./AccordianComp";
+import Rectangle15 from "../../public/Rectangle15.png";
+import Rectangle36 from "../../public/Rectangle36.png";
+import Rectangle37 from "../../public/Rectangle37.png";
 
 function ProfessionalCertificateSec() {
   const data = [
@@ -38,23 +41,23 @@ function ProfessionalCertificateSec() {
   const instructor = {
     heading: "Salar Haris",
     content: "Visual Communication Designer",
-    img: "src/assets/images/Rectangle15.png",
+    img: Rectangle15,
   };
   const courseData = [
     {
       heading: "Graphic Design",
       content: "Beginner Certifcatie",
-      img: "src/assets/images/Rectangle36.png",
+      img: Rectangle36,
     },
     {
       heading: "Adobe Photoshop",
       content: "Intermediate Certifcates",
-      img: "src/assets/images/Rectangle37.png",
+      img: Rectangle37,
     },
   ];
   return (
     <>
-      <div className=" max-w-[1200px] w-full mx-auto max-md:p-4 p-16">
+      <div className=" max-w-[1400px] w-full mx-auto max-md:p-4 p-16">
         <div className="flex flex-col gap-2">
           <h1 className=" font-[600] max-sm:text-[36px] max-sm:leading-[42px] text-[43px] leading-[52px] text-[#001E36] ">
             Professional Certificate - 8 course series
@@ -71,6 +74,10 @@ function ProfessionalCertificateSec() {
         </div>
         <div className="flex mt-10 gap-7 max-lg:flex-wrap items-start justify-center">
           <div
+            data-aos="fade-zoom-in"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
             className="p-8  rounded-3xl flex flex-col gap-2 max-w-[750px] w-full"
             style={{ boxShadow: " 5px 5px 13.1px 4px #0000001C" }}
           >
@@ -84,6 +91,10 @@ function ProfessionalCertificateSec() {
           </div>
 
           <div
+            data-aos="fade-zoom-in"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="600"
             className=" p-8 rounded-3xl max-w-[400px] w-full flex-auto "
             style={{ boxShadow: "5px 5px 13.1px 4px #0000001C" }}
           >
